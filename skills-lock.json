@@ -12,6 +12,12 @@
       "sourceType": "github",
       "skillPath": "skills/find-skills/SKILL.md",
       "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
+    },
+    "meta-ads": {
+      "source": "kostja94/marketing-skills",
+      "sourceType": "github",
+      "skillPath": "skills/paid-ads/platforms/meta-ads/SKILL.md",
+      "computedHash": "c30dafe4649edff55f29c96d32329996ea810e7e5057fa4d42f7864cd0320eb4"
     }
   }
 }
