@@ -1,12 +1,13 @@
 # Shero Home Food — Google Sheets Hub Setup Guide
 
-## What this sets up
+## Sheet structure
 
-| Tab | Purpose |
-|-----|---------|
-| **Leads** | Every lead lands here (name, phone, email, pincode, service, campaign) |
-| **Ads_Performance** | Daily Google Ads data pulled by Supermetrics |
-| **Dashboard** | Auto-calculated summary: today / this week / this month |
+| Tab | Colour | Purpose |
+|-----|--------|---------|
+| **Leads** | Green | Every lead — from Google, Meta, or website forms |
+| **Google_Ads** | Blue | Daily Google Ads data via Supermetrics |
+| **Meta_Ads** | Pink | Daily Meta (Facebook/Instagram) Ads data via Supermetrics |
+| **Dashboard** | Yellow | Auto-summary: today / this week / this month for both platforms + leads |
 
 ---
 
@@ -24,110 +25,147 @@
 1. In the sheet, go to **Extensions → Apps Script**
 2. Delete all existing code in `Code.gs`
 3. Paste the full contents of `Code.gs` from this folder
-4. Replace the `SHEET_ID` line at the top with your actual Sheet ID:
-   ```js
-   var SHEET_ID = "your-sheet-id-here";
-   ```
-5. Click **Save** (floppy disk icon)
+4. The line `var SHEET_ID = SpreadsheetApp.getActiveSpreadsheet().getId();` auto-detects your sheet — no manual change needed
+5. Click **Save**
 
 ---
 
 ## Step 3 — Run Setup
 
-1. In Apps Script, select the function `setupSheets` from the dropdown
+1. In Apps Script, select `setupSheets` from the function dropdown
 2. Click **Run**
-3. Approve permissions when prompted (it needs access to your Google Sheet and Gmail)
-4. This creates all 3 tabs with headers and dashboard formulas
+3. Approve permissions when prompted (needs Sheets + Gmail access)
+4. All 4 tabs are created instantly with correct headers and dashboard formulas
 
 ---
 
-## Step 4 — Deploy as Web App (for lead webhook)
+## Step 4 — Deploy as Web App (lead webhook)
 
-1. In Apps Script, click **Deploy → New deployment**
-2. Click the gear icon next to "Type" → select **Web app**
+1. In Apps Script → **Deploy → New deployment**
+2. Click the gear icon → select **Web app**
 3. Settings:
-   - Description: `Shero Lead Webhook`
    - Execute as: **Me**
    - Who has access: **Anyone**
-4. Click **Deploy** → copy the **Web App URL** — this is your lead endpoint
+4. Click **Deploy** → copy the **Web App URL**
 
-> Save this URL — you'll use it in your website forms and Lovable ERP
+> This is your lead webhook URL — use it in your website, Lovable ERP, and ad landing pages.
 
 ---
 
-## Step 5 — Connect Supermetrics
+## Step 5 — Connect Supermetrics: Google Ads
 
-1. Open the **Ads_Performance** tab in your sheet
-2. Go to **Extensions → Supermetrics → Launch sidebar**
-3. Configure the query:
-   - **Data source:** Google Ads
-   - **Accounts:** Select your Shero account
-   - **Date range:** Yesterday (for daily refresh)
+1. Open the **Google_Ads** tab
+2. **Extensions → Supermetrics → Launch sidebar**
+3. Configure:
+   - Data source: **Google Ads**
+   - Account: your Shero Google Ads account
+   - Date range: **Yesterday**
    - **Metrics:** Impressions, Clicks, CTR, Cost, Avg. CPC, Conversions, Cost/conv., Conv. rate
    - **Dimensions:** Date, Campaign name
-   - **Destination:** Cell `A2` of **Ads_Performance** tab
-4. Under **Scheduling**, enable **Refresh automatically** → set to **Daily at 7:00 AM**
+   - Destination: cell **A2** of **Google_Ads** tab
+4. Scheduling: **Daily at 7:00 AM**
 5. Click **Get data**
 
 ---
 
-## Step 6 — Set up Daily Email Digest (optional)
+## Step 6 — Connect Supermetrics: Meta Ads
 
-1. In Apps Script, go to **Triggers** (clock icon in left sidebar)
-2. Click **+ Add Trigger**
-3. Settings:
-   - Function: `sendDailyDigest`
-   - Event source: Time-driven
-   - Type: Day timer
-   - Time: 8:00 AM – 9:00 AM
-4. Save — you'll get a daily email at maniraj@shero.in every morning
+1. Open the **Meta_Ads** tab
+2. **Extensions → Supermetrics → Launch sidebar**
+3. Configure:
+   - Data source: **Facebook Ads** (this covers Instagram too)
+   - Account: your Shero Meta Business account
+   - Date range: **Yesterday**
+   - **Metrics:** Impressions, Reach, Clicks (all), Link clicks, CTR (link), Amount spent, CPM, CPC (link), Results, Cost per result, Frequency
+   - **Dimensions:** Date, Campaign name, Ad set name
+   - Destination: cell **A2** of **Meta_Ads** tab
+4. Scheduling: **Daily at 7:00 AM**
+5. Click **Get data**
+
+> Supermetrics will ask you to authorise your Meta Business account the first time. Use the same login as Meta Business Manager.
 
 ---
 
-## Step 7 — Connect Lovable ERP
+## Step 7 — Set up Daily Email Digest
 
-### Option A: Send leads to the sheet via webhook
-In your Lovable app, make a POST request to the Web App URL when a lead form is submitted:
+1. In Apps Script → **Triggers** (clock icon in left sidebar)
+2. **+ Add Trigger**:
+   - Function: `sendDailyDigest`
+   - Event source: Time-driven
+   - Type: Day timer
+   - Time: **8:00 AM – 9:00 AM**
+3. Save — you'll receive a morning email at maniraj@shero.in like:
+
+```
+Shero Home Food — Daily Report (2025-05-21)
+═══════════════════════════════════
+
+GOOGLE ADS
+  Clicks:      142
+  Spend:       ₹3,420.00
+  Conversions: 11
+  Cost/Conv:   ₹310.91
+
+META ADS
+  Link Clicks: 87
+  Spend:       ₹1,850.00
+  Results:     9
+  Cost/Result: ₹205.56
+
+COMBINED
+  Total Spend: ₹5,270.00
+
+LEADS TODAY: 8 total (5 Google, 3 Meta)
+```
+
+---
+
+## Step 8 — Connect Lovable ERP
+
+### Send leads from Lovable to the sheet
+When a lead form is submitted in Lovable, POST to the webhook:
 
 ```json
 POST <your-web-app-url>
 Content-Type: application/json
 
 {
-  "name": "Customer Name",
+  "name": "Priya Sharma",
   "phone": "9876543210",
-  "email": "customer@example.com",
+  "email": "priya@example.com",
   "pincode": "400001",
-  "service": "Wedding Catering",
-  "campaign": "Brand_Mumbai",
-  "adGroup": "Catering_Keywords"
+  "service": "Birthday Catering",
+  "campaign": "Mumbai_Catering_May25",
+  "platform": "Meta",
+  "adGroup": "Birthday_Lookalike_AdSet"
 }
 ```
 
-### Option B: Read the sheet from Lovable
-Use Google Sheets API in Lovable to read the **Leads** tab:
-- Enable Google Sheets API in your Google Cloud project
-- Use the Sheet ID and range `Leads!A:J` to fetch all leads
+- Set `"platform"` to `"Google"` or `"Meta"` so the Dashboard splits lead counts correctly
+- Set `"adGroup"` to the Ad Group name (Google) or Ad Set name (Meta)
+
+### Read leads in Lovable
+- Use Google Sheets API with range `Leads!A:K`
 - Filter by `Status = "New"` to show unprocessed leads
+- Update `Status` to `"Contacted"`, `"Converted"`, or `"Lost"` as you work each lead
 
 ---
 
 ## Lead Status Workflow
 
-Update the **Status** column in the Leads tab to track progress:
-
 | Status | Meaning |
 |--------|---------|
-| `New` | Just came in, not contacted |
-| `Contacted` | Called/emailed the lead |
-| `Converted` | Became a customer |
+| `New` | Just came in |
+| `Contacted` | Called or messaged |
+| `Converted` | Became a paying customer |
 | `Lost` | Did not convert |
 
 ---
 
-## Webhook Test (after deployment)
+## Webhook Test
 
 ```bash
+# Test a Google lead
 curl -X POST "YOUR_WEB_APP_URL" \
   -H "Content-Type: application/json" \
   -d '{
@@ -136,8 +174,24 @@ curl -X POST "YOUR_WEB_APP_URL" \
     "email": "test@example.com",
     "pincode": "400001",
     "service": "Corporate Lunch",
-    "campaign": "Test_Campaign"
+    "campaign": "Brand_Search_May25",
+    "platform": "Google",
+    "adGroup": "Corporate_Keywords"
+  }'
+
+# Expected: {"status":"ok","row":2}
+
+# Test a Meta lead
+curl -X POST "YOUR_WEB_APP_URL" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Meta Test",
+    "phone": "8888888888",
+    "email": "meta@example.com",
+    "pincode": "400002",
+    "service": "Wedding Catering",
+    "campaign": "Wedding_Retargeting",
+    "platform": "Meta",
+    "adGroup": "Mumbai_Wedding_AdSet"
   }'
 ```
-
-Expected response: `{"status":"ok","row":2}`

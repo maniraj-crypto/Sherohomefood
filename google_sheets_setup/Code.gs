@@ -1,6 +1,6 @@
 // ============================================================
 // Shero Home Food — Google Sheets Hub
-// Tabs: Leads | Ads_Performance | Dashboard
+// Tabs: Leads | Google_Ads | Meta_Ads | Dashboard
 // Deploy as: Web App (Execute as Me, Anyone can access)
 // ============================================================
 
@@ -10,12 +10,18 @@ var SHEET_ID = SpreadsheetApp.getActiveSpreadsheet().getId();
 
 var LEADS_HEADERS = [
   "Timestamp", "Name", "Phone", "Email", "Pincode",
-  "Service Interested In", "Campaign Source", "Ad Group", "Status", "Notes"
+  "Service Interested In", "Campaign Source", "Platform", "Ad Group / Ad Set", "Status", "Notes"
 ];
 
-var ADS_HEADERS = [
+var GOOGLE_ADS_HEADERS = [
   "Date", "Campaign Name", "Impressions", "Clicks", "CTR (%)",
   "Cost (₹)", "CPC (₹)", "Conversions", "Cost per Conversion (₹)", "Conversion Rate (%)"
+];
+
+var META_ADS_HEADERS = [
+  "Date", "Campaign Name", "Ad Set Name", "Impressions", "Reach",
+  "Clicks (All)", "Link Clicks", "CTR (Link) (%)", "Spend (₹)", "CPM (₹)",
+  "CPC (₹)", "Results", "Cost per Result (₹)", "Frequency"
 ];
 
 var DASHBOARD_HEADERS = [
@@ -27,14 +33,15 @@ var DASHBOARD_HEADERS = [
 function setupSheets() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
 
-  createOrClearSheet(ss, "Leads",           LEADS_HEADERS,      "#E8F5E9");
-  createOrClearSheet(ss, "Ads_Performance", ADS_HEADERS,        "#E3F2FD");
-  createOrClearSheet(ss, "Dashboard",       DASHBOARD_HEADERS,  "#FFF8E1");
+  createOrClearSheet(ss, "Leads",       LEADS_HEADERS,       "#E8F5E9");
+  createOrClearSheet(ss, "Google_Ads",  GOOGLE_ADS_HEADERS,  "#E3F2FD");
+  createOrClearSheet(ss, "Meta_Ads",    META_ADS_HEADERS,    "#FCE4EC");
+  createOrClearSheet(ss, "Dashboard",   DASHBOARD_HEADERS,   "#FFF8E1");
 
   buildDashboardFormulas(ss);
 
   SpreadsheetApp.flush();
-  Logger.log("Setup complete. Share this sheet URL with Supermetrics and your team.");
+  Logger.log("Setup complete.");
 }
 
 function createOrClearSheet(ss, name, headers, color) {
@@ -45,7 +52,6 @@ function createOrClearSheet(ss, name, headers, color) {
     sheet.clearContents();
   }
 
-  // Header row styling
   var headerRange = sheet.getRange(1, 1, 1, headers.length);
   headerRange.setValues([headers]);
   headerRange.setBackground(color);
@@ -58,53 +64,151 @@ function createOrClearSheet(ss, name, headers, color) {
 }
 
 // ── Dashboard summary formulas ───────────────────────────────
+// Columns: A=Metric | B=Today | C=This Week | D=This Month
 
 function buildDashboardFormulas(ss) {
   var dash = ss.getSheetByName("Dashboard");
   dash.clearContents();
 
-  var headerRange = dash.getRange(1, 1, 1, 4);
-  headerRange.setValues([DASHBOARD_HEADERS]);
-  headerRange.setBackground("#FFF8E1");
-  headerRange.setFontWeight("bold");
-  headerRange.setFontSize(11);
-  dash.setFrozenRows(1);
+  // Section headers
+  var sections = [
+    { row: 1,  label: "── GOOGLE ADS ──",  color: "#E3F2FD" },
+    { row: 7,  label: "── META ADS ──",    color: "#FCE4EC" },
+    { row: 14, label: "── COMBINED ──",    color: "#F3E5F5" },
+    { row: 18, label: "── LEADS ──",       color: "#E8F5E9" },
+  ];
 
-  // Labels + formulas referencing Ads_Performance
-  var rows = [
-    ["Impressions",
-      '=SUMIF(Ads_Performance!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Ads_Performance!C:C)',
-      '=SUMIF(Ads_Performance!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Ads_Performance!C:C)',
-      '=SUMPRODUCT((MONTH(DATEVALUE(Ads_Performance!A2:A1000))=MONTH(TODAY()))*(YEAR(DATEVALUE(Ads_Performance!A2:A1000))=YEAR(TODAY()))*Ads_Performance!C2:C1000)'
+  // Google Ads rows (start row 2)
+  var googleRows = [
+    ["G: Impressions",
+      '=SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!C:C)',
+      '=SUMIF(Google_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Google_Ads!C:C)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=YEAR(TODAY()))*Google_Ads!C2:C2000)'
     ],
-    ["Clicks",
-      '=SUMIF(Ads_Performance!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Ads_Performance!D:D)',
-      '=SUMIF(Ads_Performance!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Ads_Performance!D:D)',
-      '=SUMPRODUCT((MONTH(DATEVALUE(Ads_Performance!A2:A1000))=MONTH(TODAY()))*(YEAR(DATEVALUE(Ads_Performance!A2:A1000))=YEAR(TODAY()))*Ads_Performance!D2:D1000)'
+    ["G: Clicks",
+      '=SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!D:D)',
+      '=SUMIF(Google_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Google_Ads!D:D)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=YEAR(TODAY()))*Google_Ads!D2:D2000)'
     ],
-    ["Cost (₹)",
-      '=SUMIF(Ads_Performance!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Ads_Performance!F:F)',
-      '=SUMIF(Ads_Performance!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Ads_Performance!F:F)',
-      '=SUMPRODUCT((MONTH(DATEVALUE(Ads_Performance!A2:A1000))=MONTH(TODAY()))*(YEAR(DATEVALUE(Ads_Performance!A2:A1000))=YEAR(TODAY()))*Ads_Performance!F2:F1000)'
+    ["G: Spend (₹)",
+      '=SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!F:F)',
+      '=SUMIF(Google_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Google_Ads!F:F)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=YEAR(TODAY()))*Google_Ads!F2:F2000)'
     ],
-    ["Conversions",
-      '=SUMIF(Ads_Performance!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Ads_Performance!H:H)',
-      '=SUMIF(Ads_Performance!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Ads_Performance!H:H)',
-      '=SUMPRODUCT((MONTH(DATEVALUE(Ads_Performance!A2:A1000))=MONTH(TODAY()))*(YEAR(DATEVALUE(Ads_Performance!A2:A1000))=YEAR(TODAY()))*Ads_Performance!H2:H1000)'
+    ["G: Conversions",
+      '=SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!H:H)',
+      '=SUMIF(Google_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Google_Ads!H:H)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Google_Ads!A2:A2000),0))=YEAR(TODAY()))*Google_Ads!H2:H2000)'
     ],
-    ["Total Leads",
-      '=COUNTIF(Leads!A:A,">="&TODAY())',
-      '=COUNTIF(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1))',
-      '=SUMPRODUCT((MONTH(Leads!A2:A1000)=MONTH(TODAY()))*(YEAR(Leads!A2:A1000)=YEAR(TODAY())))'
-    ],
-    ["Cost per Lead (₹)",
-      '=IFERROR(SUMIF(Ads_Performance!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Ads_Performance!F:F)/COUNTIF(Leads!A:A,">="&TODAY()),"N/A")',
+    ["G: Cost/Conv (₹)",
+      '=IFERROR(SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!F:F)/SUMIF(Google_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Google_Ads!H:H),"N/A")',
       '"N/A"',
       '"N/A"'
     ],
   ];
 
-  dash.getRange(2, 1, rows.length, 4).setValues(rows);
+  // Meta Ads rows (start row 8)
+  var metaRows = [
+    ["M: Impressions",
+      '=SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!D:D)',
+      '=SUMIF(Meta_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Meta_Ads!D:D)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=YEAR(TODAY()))*Meta_Ads!D2:D2000)'
+    ],
+    ["M: Reach",
+      '=SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!E:E)',
+      '=SUMIF(Meta_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Meta_Ads!E:E)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=YEAR(TODAY()))*Meta_Ads!E2:E2000)'
+    ],
+    ["M: Link Clicks",
+      '=SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!G:G)',
+      '=SUMIF(Meta_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Meta_Ads!G:G)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=YEAR(TODAY()))*Meta_Ads!G2:G2000)'
+    ],
+    ["M: Spend (₹)",
+      '=SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!I:I)',
+      '=SUMIF(Meta_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Meta_Ads!I:I)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=YEAR(TODAY()))*Meta_Ads!I2:I2000)'
+    ],
+    ["M: Results",
+      '=SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!L:L)',
+      '=SUMIF(Meta_Ads!A:A,">="&TEXT(TODAY()-WEEKDAY(TODAY(),2)+1,"yyyy-mm-dd"),Meta_Ads!L:L)',
+      '=SUMPRODUCT((MONTH(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=MONTH(TODAY()))*(YEAR(IFERROR(DATEVALUE(Meta_Ads!A2:A2000),0))=YEAR(TODAY()))*Meta_Ads!L2:L2000)'
+    ],
+    ["M: Cost/Result (₹)",
+      '=IFERROR(SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!I:I)/SUMIF(Meta_Ads!A:A,TEXT(TODAY(),"yyyy-mm-dd"),Meta_Ads!L:L),"N/A")',
+      '"N/A"',
+      '"N/A"'
+    ],
+  ];
+
+  // Combined rows (start row 15)
+  var combinedRows = [
+    ["Total Spend (₹)",
+      '=IFERROR(B3,0)+IFERROR(B11,0)',
+      '=IFERROR(C3,0)+IFERROR(C11,0)',
+      '=IFERROR(D3,0)+IFERROR(D11,0)'
+    ],
+    ["Total Conversions / Results",
+      '=IFERROR(B5,0)+IFERROR(B12,0)',
+      '=IFERROR(C5,0)+IFERROR(C12,0)',
+      '=IFERROR(D5,0)+IFERROR(D12,0)'
+    ],
+    ["Blended Cost/Lead (₹)",
+      '=IFERROR((IFERROR(B3,0)+IFERROR(B11,0))/B21,"N/A")',
+      '"N/A"',
+      '"N/A"'
+    ],
+  ];
+
+  // Leads rows (start row 19)
+  var leadsRows = [
+    ["Leads Today",
+      '=COUNTIF(Leads!A:A,">="&TODAY())',
+      '=COUNTIF(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1))',
+      '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY())))'
+    ],
+    ["From Google Ads",
+      '=COUNTIFS(Leads!A:A,">="&TODAY(),Leads!H:H,"Google")',
+      '=COUNTIFS(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1),Leads!H:H,"Google")',
+      '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY()))*(Leads!H2:H2000="Google"))'
+    ],
+    ["From Meta",
+      '=COUNTIFS(Leads!A:A,">="&TODAY(),Leads!H:H,"Meta")',
+      '=COUNTIFS(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1),Leads!H:H,"Meta")',
+      '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY()))*(Leads!H2:H2000="Meta"))'
+    ],
+  ];
+
+  // Write section headers
+  var sectionLabelStyle = function(sheet, row, label, color) {
+    var r = sheet.getRange(row, 1, 1, 4);
+    r.merge();
+    r.setValue(label);
+    r.setBackground(color);
+    r.setFontWeight("bold");
+    r.setFontSize(10);
+  };
+
+  // Header row
+  var hdr = dash.getRange(1, 1, 1, 4);
+  hdr.setValues([DASHBOARD_HEADERS]);
+  hdr.setBackground("#FFF8E1");
+  hdr.setFontWeight("bold");
+  hdr.setFontSize(11);
+  dash.setFrozenRows(1);
+
+  sectionLabelStyle(dash, 2,  "── GOOGLE ADS ──",  "#E3F2FD");
+  dash.getRange(3, 1, googleRows.length, 4).setValues(googleRows);
+
+  sectionLabelStyle(dash, 8,  "── META ADS ──",    "#FCE4EC");
+  dash.getRange(9, 1, metaRows.length, 4).setValues(metaRows);
+
+  sectionLabelStyle(dash, 15, "── COMBINED ──",    "#F3E5F5");
+  dash.getRange(16, 1, combinedRows.length, 4).setValues(combinedRows);
+
+  sectionLabelStyle(dash, 19, "── LEADS ──",       "#E8F5E9");
+  dash.getRange(20, 1, leadsRows.length, 4).setValues(leadsRows);
+
   dash.autoResizeColumns(1, 4);
 }
 
@@ -118,35 +222,34 @@ function buildDashboardFormulas(ss) {
 //   "pincode":  "400001",
 //   "service":  "Wedding Catering",
 //   "campaign": "Brand_Mumbai_Apr25",
-//   "adGroup":  "Catering_Keyword_Match"   // optional
+//   "platform": "Google",              // "Google" or "Meta"
+//   "adGroup":  "Catering_Keywords"    // Ad Group (Google) or Ad Set (Meta)
 // }
-//
-// Returns: { "status": "ok", "row": <row number> }
 
 function doPost(e) {
   try {
-    var data = JSON.parse(e.postData.contents);
-    var ss   = SpreadsheetApp.openById(SHEET_ID);
+    var data  = JSON.parse(e.postData.contents);
+    var ss    = SpreadsheetApp.openById(SHEET_ID);
     var sheet = ss.getSheetByName("Leads");
 
     var row = [
-      new Date(),                          // Timestamp
+      new Date(),
       data.name     || "",
       data.phone    || "",
       data.email    || "",
       data.pincode  || "",
       data.service  || "",
       data.campaign || "",
+      data.platform || "",   // "Google" or "Meta"
       data.adGroup  || "",
-      "New",                               // Default status
-      ""                                   // Notes (blank)
+      "New",
+      ""
     ];
 
     sheet.appendRow(row);
-    var lastRow = sheet.getLastRow();
 
     return ContentService
-      .createTextOutput(JSON.stringify({ status: "ok", row: lastRow }))
+      .createTextOutput(JSON.stringify({ status: "ok", row: sheet.getLastRow() }))
       .setMimeType(ContentService.MimeType.JSON);
 
   } catch (err) {
@@ -164,47 +267,67 @@ function doGet(e) {
     .setMimeType(ContentService.MimeType.JSON);
 }
 
-// ── Optional: daily email digest ────────────────────────────
-// Set a time-based trigger on this function (6 AM daily)
+// ── Daily email digest ───────────────────────────────────────
+// Set a time-based trigger on this function (8 AM daily)
 
 function sendDailyDigest() {
-  var ss   = SpreadsheetApp.getActiveSpreadsheet();
-  var ads  = ss.getSheetByName("Ads_Performance");
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var gAds  = ss.getSheetByName("Google_Ads");
+  var mAds  = ss.getSheetByName("Meta_Ads");
   var leads = ss.getSheetByName("Leads");
+  var tz    = Session.getScriptTimeZone();
+  var today = Utilities.formatDate(new Date(), tz, "yyyy-MM-dd");
 
-  var today = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd");
+  // ── Google Ads ──
+  var gData    = gAds.getDataRange().getValues().slice(1);
+  var gToday   = gData.filter(function(r) { return r[0] === today; });
+  var gClicks  = gToday.reduce(function(s, r) { return s + (r[3] || 0); }, 0);
+  var gCost    = gToday.reduce(function(s, r) { return s + (r[5] || 0); }, 0);
+  var gConv    = gToday.reduce(function(s, r) { return s + (r[7] || 0); }, 0);
 
-  // Count today's leads
-  var leadData = leads.getDataRange().getValues();
-  var todayLeads = leadData.slice(1).filter(function(r) {
-    return r[0] && Utilities.formatDate(new Date(r[0]), Session.getScriptTimeZone(), "yyyy-MM-dd") === today;
+  // ── Meta Ads ──
+  var mData    = mAds.getDataRange().getValues().slice(1);
+  var mToday   = mData.filter(function(r) { return r[0] === today; });
+  var mClicks  = mToday.reduce(function(s, r) { return s + (r[6] || 0); }, 0);  // Link Clicks col G
+  var mCost    = mToday.reduce(function(s, r) { return s + (r[8] || 0); }, 0);  // Spend col I
+  var mResults = mToday.reduce(function(s, r) { return s + (r[11] || 0); }, 0); // Results col L
+
+  // ── Leads ──
+  var leadData   = leads.getDataRange().getValues().slice(1);
+  var todayLeads = leadData.filter(function(r) {
+    return r[0] && Utilities.formatDate(new Date(r[0]), tz, "yyyy-MM-dd") === today;
   });
+  var gLeads = todayLeads.filter(function(r) { return r[7] === "Google"; });
+  var mLeads = todayLeads.filter(function(r) { return r[7] === "Meta"; });
 
-  // Find today's ads row
-  var adsData = ads.getDataRange().getValues();
-  var todayAds = adsData.filter(function(r) { return r[0] === today; });
+  // ── Build email ──
+  var body = "Shero Home Food — Daily Report (" + today + ")\n";
+  body += "═══════════════════════════════════\n\n";
 
-  var body = "📊 Shero Home Food — Daily Report (" + today + ")\n\n";
+  body += "GOOGLE ADS\n";
+  body += "  Clicks:      " + gClicks + "\n";
+  body += "  Spend:       ₹" + gCost.toFixed(2) + "\n";
+  body += "  Conversions: " + gConv + "\n";
+  body += "  Cost/Conv:   ₹" + (gConv > 0 ? (gCost / gConv).toFixed(2) : "N/A") + "\n\n";
 
-  if (todayAds.length > 0) {
-    var totalClicks = todayAds.reduce(function(s, r) { return s + (r[3] || 0); }, 0);
-    var totalCost   = todayAds.reduce(function(s, r) { return s + (r[5] || 0); }, 0);
-    var totalConv   = todayAds.reduce(function(s, r) { return s + (r[7] || 0); }, 0);
-    body += "Google Ads:\n";
-    body += "  Clicks: " + totalClicks + "\n";
-    body += "  Spend: ₹" + totalCost.toFixed(2) + "\n";
-    body += "  Conversions: " + totalConv + "\n\n";
-  } else {
-    body += "Google Ads: No data yet for today (Supermetrics may not have refreshed)\n\n";
-  }
+  body += "META ADS\n";
+  body += "  Link Clicks: " + mClicks + "\n";
+  body += "  Spend:       ₹" + mCost.toFixed(2) + "\n";
+  body += "  Results:     " + mResults + "\n";
+  body += "  Cost/Result: ₹" + (mResults > 0 ? (mCost / mResults).toFixed(2) : "N/A") + "\n\n";
 
-  body += "Leads Today: " + todayLeads.length + "\n";
+  body += "COMBINED\n";
+  body += "  Total Spend: ₹" + (gCost + mCost).toFixed(2) + "\n\n";
+
+  body += "LEADS TODAY: " + todayLeads.length + " total";
+  body += " (" + gLeads.length + " Google, " + mLeads.length + " Meta)\n";
+
   if (todayLeads.length > 0) {
     body += "\nNew Leads:\n";
     todayLeads.forEach(function(r) {
-      body += "  • " + r[1] + " | " + r[2] + " | " + r[6] + "\n";
+      body += "  • " + r[1] + " | " + r[2] + " | " + r[6] + " [" + (r[7] || "?") + "]\n";
     });
   }
 
-  MailApp.sendEmail("maniraj@shero.in", "Shero Ads + Leads — " + today, body);
+  MailApp.sendEmail("maniraj@shero.in", "Shero Daily Report — " + today, body);
 }
