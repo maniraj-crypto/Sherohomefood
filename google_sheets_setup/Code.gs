@@ -6,17 +6,15 @@
 
 var SHEET_ID = SpreadsheetApp.getActiveSpreadsheet().getId();
 
-// ── CONFIG: paste your Lovable ERP webhook URL here ──────────
-var LOVABLE_WEBHOOK_URL = "https://your-lovable-erp-webhook-url.com/leads";
-
-// Col index of "ERP Sync" in Leads sheet (0-based, col L = index 11)
-var ERP_SYNC_COL = 12; // 1-based column number for setValues
+// ── CONFIG ───────────────────────────────────────────────────
+var LOVABLE_WEBHOOK_URL = "https://mulhcroxptxcadkveiuu.supabase.co/functions/v1/lead-webhook";
 
 // ── Sheet & column definitions ───────────────────────────────
+// Supabase payload fields: name, phone, vertical, source, city, pincode
 
 var LEADS_HEADERS = [
-  "Timestamp", "Name", "Phone", "Email", "Pincode",
-  "Service Interested In", "Campaign Source", "Platform", "Ad Group / Ad Set",
+  "Timestamp", "Name", "Phone", "Email", "Pincode", "City",
+  "Vertical", "Source", "Campaign", "Ad Group / Ad Set",
   "Status", "Notes", "ERP Sync"
 ];
 
@@ -71,32 +69,35 @@ function createOrClearSheet(ss, name, headers, color) {
   return sheet;
 }
 
-// ── Push a lead object to Lovable ERP ───────────────────────
+// ── Push a lead to the Supabase ERP webhook ─────────────────
+// Sends exactly the fields Supabase expects.
 // Returns "Synced" on success, "Failed: <reason>" on error.
 
 function pushToERP(lead) {
-  if (!LOVABLE_WEBHOOK_URL || LOVABLE_WEBHOOK_URL.indexOf("your-lovable") !== -1) {
-    return "No ERP URL";
-  }
+  var payload = {
+    name:     lead.name     || "",
+    phone:    lead.phone    || "",
+    vertical: lead.vertical || "",
+    source:   lead.source   || "",
+    city:     lead.city     || "",
+    pincode:  lead.pincode  || ""
+  };
 
   var attempts = 3;
-  var delay    = 1000; // ms
+  var delay    = 1000;
 
   for (var i = 0; i < attempts; i++) {
     try {
       var response = UrlFetchApp.fetch(LOVABLE_WEBHOOK_URL, {
         method:             "post",
         contentType:        "application/json",
-        payload:            JSON.stringify(lead),
+        payload:            JSON.stringify(payload),
         muteHttpExceptions: true
       });
 
       var code = response.getResponseCode();
-      if (code >= 200 && code < 300) {
-        return "Synced";
-      }
+      if (code >= 200 && code < 300) return "Synced";
 
-      // Retryable server errors
       if (code >= 500 && i < attempts - 1) {
         Utilities.sleep(delay);
         delay *= 2;
@@ -120,16 +121,17 @@ function pushToERP(lead) {
 
 // ── Webhook: POST endpoint to receive leads ──────────────────
 //
-// Payload (JSON):
+// Payload (JSON) — matches Supabase field names:
 // {
 //   "name":     "Ravi Kumar",
 //   "phone":    "9876543210",
-//   "email":    "ravi@example.com",
-//   "pincode":  "400001",
-//   "service":  "Wedding Catering",
-//   "campaign": "Brand_Mumbai_Apr25",
-//   "platform": "Google",              // "Google" or "Meta"
-//   "adGroup":  "Catering_Keywords"
+//   "email":    "ravi@example.com",   // optional
+//   "pincode":  "500081",
+//   "city":     "Hyderabad",
+//   "vertical": "party",              // e.g. party, wedding, corporate
+//   "source":   "meta",               // "meta" or "google"
+//   "campaign": "Brand_Hyd_May25",    // optional
+//   "adGroup":  "Party_Keywords"      // optional
 // }
 //
 // Response: { "status": "ok", "row": N, "erp": "Synced" | "Failed: ..." }
@@ -141,41 +143,41 @@ function doPost(e) {
     var sheet = ss.getSheetByName("Leads");
 
     var lead = {
-      timestamp: new Date().toISOString(),
-      name:      data.name     || "",
-      phone:     data.phone    || "",
-      email:     data.email    || "",
-      pincode:   data.pincode  || "",
-      service:   data.service  || "",
-      campaign:  data.campaign || "",
-      platform:  data.platform || "",
-      adGroup:   data.adGroup  || "",
-      status:    "New"
+      name:     data.name     || "",
+      phone:    data.phone    || "",
+      email:    data.email    || "",
+      pincode:  data.pincode  || "",
+      city:     data.city     || "",
+      vertical: data.vertical || "",
+      source:   data.source   || "",
+      campaign: data.campaign || "",
+      adGroup:  data.adGroup  || ""
     };
 
-    // Push to ERP first (inline, same request)
+    // Push to Supabase ERP inline — same request, no delay
     var erpStatus = pushToERP(lead);
 
     var row = [
-      new Date(),
+      new Date(),       // Timestamp
       lead.name,
       lead.phone,
       lead.email,
       lead.pincode,
-      lead.service,
+      lead.city,
+      lead.vertical,
+      lead.source,
       lead.campaign,
-      lead.platform,
       lead.adGroup,
-      lead.status,
-      "",          // Notes
-      erpStatus    // ERP Sync
+      "New",            // Status
+      "",               // Notes
+      erpStatus         // ERP Sync
     ];
 
     sheet.appendRow(row);
 
-    // Colour-code the ERP Sync cell
-    var lastRow   = sheet.getLastRow();
-    var syncCell  = sheet.getRange(lastRow, 12);
+    // Green = Synced, Red = Failed
+    var lastRow  = sheet.getLastRow();
+    var syncCell = sheet.getRange(lastRow, 13);
     syncCell.setBackground(erpStatus === "Synced" ? "#C8E6C9" : "#FFCDD2");
 
     return ContentService
@@ -198,34 +200,33 @@ function doGet(e) {
 }
 
 // ── onEdit trigger: sync manually added rows to ERP ─────────
-// Fires when someone types a lead directly into the sheet.
-// Detects a new row in Leads where ERP Sync is blank.
+// Cols: A=Timestamp B=Name C=Phone D=Email E=Pincode F=City
+//       G=Vertical  H=Source I=Campaign J=AdGroup K=Status L=Notes M=ERP Sync
 
 function onLeadEdit(e) {
   var sheet = e.source.getActiveSheet();
   if (sheet.getName() !== "Leads") return;
 
   var row = e.range.getRow();
-  if (row < 2) return; // skip header
+  if (row < 2) return;
 
-  var syncCell = sheet.getRange(row, 12);
-  if (syncCell.getValue() !== "") return; // already synced
+  var syncCell = sheet.getRange(row, 13); // col M
+  if (syncCell.getValue() !== "") return;
 
-  // Read the full row
-  var values = sheet.getRange(row, 1, 1, 11).getValues()[0];
-  if (!values[0]) return; // empty row
+  var values = sheet.getRange(row, 1, 1, 12).getValues()[0];
+  if (!values[0]) return;
 
+  // Map columns to Supabase field names
   var lead = {
-    timestamp: values[0] ? new Date(values[0]).toISOString() : new Date().toISOString(),
-    name:      values[1] || "",
-    phone:     values[2] || "",
-    email:     values[3] || "",
-    pincode:   values[4] || "",
-    service:   values[5] || "",
-    campaign:  values[6] || "",
-    platform:  values[7] || "",
-    adGroup:   values[8] || "",
-    status:    values[9] || "New"
+    name:     values[1] || "",   // B
+    phone:    values[2] || "",   // C
+    email:    values[3] || "",   // D
+    pincode:  values[4] || "",   // E
+    city:     values[5] || "",   // F
+    vertical: values[6] || "",   // G
+    source:   values[7] || "",   // H
+    campaign: values[8] || "",   // I
+    adGroup:  values[9] || ""    // J
   };
 
   var erpStatus = pushToERP(lead);
@@ -260,24 +261,23 @@ function retryFailedSyncs() {
   var data  = sheet.getDataRange().getValues();
 
   for (var i = 1; i < data.length; i++) {
-    var syncStatus = data[i][11];
+    var syncStatus = data[i][12]; // col M (0-based index 12)
     if (typeof syncStatus === "string" && syncStatus.indexOf("Failed") === 0) {
 
       var lead = {
-        timestamp: data[i][0] ? new Date(data[i][0]).toISOString() : "",
-        name:      data[i][1] || "",
-        phone:     data[i][2] || "",
-        email:     data[i][3] || "",
-        pincode:   data[i][4] || "",
-        service:   data[i][5] || "",
-        campaign:  data[i][6] || "",
-        platform:  data[i][7] || "",
-        adGroup:   data[i][8] || "",
-        status:    data[i][9] || "New"
+        name:     data[i][1] || "",
+        phone:    data[i][2] || "",
+        email:    data[i][3] || "",
+        pincode:  data[i][4] || "",
+        city:     data[i][5] || "",
+        vertical: data[i][6] || "",
+        source:   data[i][7] || "",
+        campaign: data[i][8] || "",
+        adGroup:  data[i][9] || ""
       };
 
       var result   = pushToERP(lead);
-      var syncCell = sheet.getRange(i + 1, 12);
+      var syncCell = sheet.getRange(i + 1, 13); // col M (1-based)
       syncCell.setValue(result);
       syncCell.setBackground(result === "Synced" ? "#C8E6C9" : "#FFCDD2");
     }
@@ -383,9 +383,9 @@ function buildDashboardFormulas(ss) {
       '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY()))*(Leads!H2:H2000="Meta"))'
     ],
     ["ERP Sync Failures",
-      '=COUNTIFS(Leads!A:A,">="&TODAY(),Leads!L:L,"Failed*")',
-      '=COUNTIFS(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1),Leads!L:L,"Failed*")',
-      '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY()))*(LEFT(Leads!L2:L2000,6)="Failed"))'
+      '=COUNTIFS(Leads!A:A,">="&TODAY(),Leads!M:M,"Failed*")',
+      '=COUNTIFS(Leads!A:A,">="&(TODAY()-WEEKDAY(TODAY(),2)+1),Leads!M:M,"Failed*")',
+      '=SUMPRODUCT((MONTH(Leads!A2:A2000)=MONTH(TODAY()))*(YEAR(Leads!A2:A2000)=YEAR(TODAY()))*(LEFT(Leads!M2:M2000,6)="Failed"))'
     ],
   ];
 
@@ -446,10 +446,10 @@ function sendDailyDigest() {
   var todayLeads = leadData.filter(function(r) {
     return r[0] && Utilities.formatDate(new Date(r[0]), tz, "yyyy-MM-dd") === today;
   });
-  var gLeads   = todayLeads.filter(function(r) { return r[7] === "Google"; });
-  var mLeads   = todayLeads.filter(function(r) { return r[7] === "Meta"; });
+  var gLeads   = todayLeads.filter(function(r) { return (r[7]||"").toLowerCase() === "google"; });
+  var mLeads   = todayLeads.filter(function(r) { return (r[7]||"").toLowerCase() === "meta"; });
   var failSync = todayLeads.filter(function(r) {
-    return typeof r[11] === "string" && r[11].indexOf("Failed") === 0;
+    return typeof r[12] === "string" && r[12].indexOf("Failed") === 0;
   });
 
   var body = "Shero Home Food — Daily Report (" + today + ")\n";
@@ -476,7 +476,7 @@ function sendDailyDigest() {
   if (todayLeads.length > 0) {
     body += "\nNew Leads:\n";
     todayLeads.forEach(function(r) {
-      body += "  • " + r[1] + " | " + r[2] + " | " + r[6] + " [" + (r[7] || "?") + "] — ERP: " + (r[11] || "?") + "\n";
+      body += "  • " + r[1] + " | " + r[2] + " | " + r[6] + " [" + (r[7] || "?") + "] — ERP: " + (r[12] || "?") + "\n";
     });
   }
 
