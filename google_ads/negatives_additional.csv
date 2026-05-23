@@ -16,15 +16,9 @@ Add,DST - Bulk/Party,franchise,Broad,B2B/franchise intent
 Add,DST - Bulk/Party,bluey,Broad,US kids show theme leak
 Add,DST - Bulk/Party,taco,Broad,US theme leak
 Add,DST - Bulk/Party,hawaiian,Broad,US theme leak
+Add,DST - Bulk/Party,mexican,Broad,US theme leak
 Add,DST - Bulk/Party,waffle house,Phrase,US chain leak
-Add,DST - Catering - Jan9,recipe,Broad,Recipe-seekers
-Add,DST - Catering - Jan9,recipes,Broad,Recipe-seekers
-Add,DST - Catering - Jan9,how to make,Phrase,DIY intent
-Add,DST - Catering - Jan9,how to cook,Phrase,DIY intent
-Add,DST - Catering - Jan9,diy,Broad,DIY intent
-Add,DST - Catering - Jan9,cake,Broad,Cake-only intent
-Add,DST - Catering - Jan9,bakery,Broad,Cake/bakery only
-Add,DST - Catering - Jan9,jobs,Broad,Employment search
-Add,DST - Catering - Jan9,salary,Broad,Employment search
-Add,DST - Catering - Jan9,vacancy,Broad,Employment search
-Add,DST - Catering - Jan9,franchise,Broad,B2B/franchise intent
+Add,DST - Bulk/Party,waffle,Broad,US food intent
+Add,DST - Bulk/Party,vegan,Broad,Different intent (vegan != veg in India)
+Add,DST - Bulk/Party,keto,Broad,Diet plan not catering
+Add,DST - Bulk/Party,paleo,Broad,Diet plan not catering
