@@ -1,0 +1,30 @@
+Action,Campaign,Keyword,Match Type,Note
+Add,DST - Bulk/Party,recipe,Broad,Recipe-seekers not buyers
+Add,DST - Bulk/Party,recipes,Broad,Recipe-seekers
+Add,DST - Bulk/Party,how to make,Phrase,DIY intent
+Add,DST - Bulk/Party,how to cook,Phrase,DIY intent
+Add,DST - Bulk/Party,diy,Broad,DIY intent
+Add,DST - Bulk/Party,cake,Broad,Cake-only intent
+Add,DST - Bulk/Party,bakery,Broad,Cake/bakery only
+Add,DST - Bulk/Party,decorations,Broad,Decor not food
+Add,DST - Bulk/Party,balloons,Broad,Decor not food
+Add,DST - Bulk/Party,theme,Broad,Decor/theme intent
+Add,DST - Bulk/Party,jobs,Broad,Employment search
+Add,DST - Bulk/Party,salary,Broad,Employment search
+Add,DST - Bulk/Party,vacancy,Broad,Employment search
+Add,DST - Bulk/Party,franchise,Broad,B2B/franchise intent
+Add,DST - Bulk/Party,bluey,Broad,US kids show theme leak
+Add,DST - Bulk/Party,taco,Broad,US theme leak
+Add,DST - Bulk/Party,hawaiian,Broad,US theme leak
+Add,DST - Bulk/Party,waffle house,Phrase,US chain leak
+Add,DST - Catering - Jan9,recipe,Broad,Recipe-seekers
+Add,DST - Catering - Jan9,recipes,Broad,Recipe-seekers
+Add,DST - Catering - Jan9,how to make,Phrase,DIY intent
+Add,DST - Catering - Jan9,how to cook,Phrase,DIY intent
+Add,DST - Catering - Jan9,diy,Broad,DIY intent
+Add,DST - Catering - Jan9,cake,Broad,Cake-only intent
+Add,DST - Catering - Jan9,bakery,Broad,Cake/bakery only
+Add,DST - Catering - Jan9,jobs,Broad,Employment search
+Add,DST - Catering - Jan9,salary,Broad,Employment search
+Add,DST - Catering - Jan9,vacancy,Broad,Employment search
+Add,DST - Catering - Jan9,franchise,Broad,B2B/franchise intent
