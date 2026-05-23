@@ -1,0 +1,130 @@
+Action,Campaign,Ad Group,Keyword,Match Type,Reason
+Remove,DST - Bulk/Party,Office Party,home party catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,home party catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,home party catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,home party catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,catering for small group,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,catering for small group,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,catering for small group,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,catering for small group,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,small function catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small function catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small function catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small function catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,food for small gathering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,food for small gathering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,food for small gathering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,food for small gathering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,catering for 20 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 20 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 20 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 20 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,food for small party,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,food for small party,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,food for small party,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,food for small party,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,small wedding catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,small wedding catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,small wedding catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,small wedding catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,catering for 10 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 10 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 10 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 10 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,catering for 15 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 15 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 15 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 15 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,catering for 40 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 40 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 40 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 40 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,catering for 50 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 50 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 50 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 50 people,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,small party food catering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small party food catering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small party food catering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small party food catering,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,catering for 25 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 25 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 25 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 25 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,food for 30 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,food for 30 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,food for 30 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,food for 30 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,small party catering near me,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small party catering near me,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small party catering near me,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small party catering near me,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,catering for 30 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 30 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,catering for 30 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,catering for 30 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,home party catering near me,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,home party catering near me,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,home party catering near me,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,home party catering near me,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,small gathering catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small gathering catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small gathering catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small gathering catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,mini catering service,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,mini catering service,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,mini catering service,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,mini catering service,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,food for 50 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,food for 50 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,food for 50 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,food for 50 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,food for 20 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Naming Ceremony,food for 20 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Birthday Event,food for 20 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Home Party,food for 20 guests,EXACT,Duplicate across ad groups — internal auction competition — keep only in Anniversary Event
+Remove,DST - Bulk/Party,Office Party,intimate dinner catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,intimate dinner catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,intimate dinner catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,intimate dinner catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,intimate event catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,intimate event catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,intimate event catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,intimate event catering,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,home party food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,home party food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,home party food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,home party food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,birthday food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Birthday Event
+Remove,DST - Bulk/Party,Naming Ceremony,birthday food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Birthday Event
+Remove,DST - Bulk/Party,Anniversary Event,birthday food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Birthday Event
+Remove,DST - Bulk/Party,Home Party,birthday food for 20 people,EXACT,Duplicate across ad groups — internal auction competition — keep only in Birthday Event
+Remove,DST - Bulk/Party,Office Party,small family gathering catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small family gathering catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small family gathering catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small family gathering catering,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,house party catering for 20,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,house party catering for 20,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,house party catering for 20,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,house party catering for 20,EXACT,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,small function food,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small function food,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small function food,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small function food,PHRASE,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,small event food order,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,small event food order,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,small event food order,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,small event food order,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,catering for few people,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Naming Ceremony,catering for few people,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Birthday Event,catering for few people,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Anniversary Event,catering for few people,BROAD,Duplicate across ad groups — internal auction competition — keep only in Home Party
+Remove,DST - Bulk/Party,Office Party,Office Party,EXACT,"Ad-group-name Exact keyword — too broad, captures research intent not buyers"
+Remove,DST - Bulk/Party,Home Pooja,Home Pooja,EXACT,Ad-group-name Exact keyword — too broad
+Remove,DST - Bulk/Party,House Warming,House Warming,EXACT,Ad-group-name Exact keyword — too broad
+Remove,DST - Bulk/Party,Naming Ceremony,Naming Ceremony,EXACT,Ad-group-name Exact keyword — too broad
+Remove,DST - Bulk/Party,Baby Shower,Baby Shower,PHRASE,"Ad-group-name Phrase keyword — way too broad, captures research intent"
+Remove,DST - Bulk/Party,Home Party,home party,EXACT,"Generic 2-word — captures party-hosting research, not catering buyers"
+Remove,DST - Bulk/Party,Naming Ceremony,birthday catering,PHRASE,Birthday term in Naming Ceremony ad group
+Remove,DST - Bulk/Party,Naming Ceremony,party catering,PHRASE,Generic 'party catering' broad phrase in Naming Ceremony
+Remove,DST - Bulk/Party,Naming Ceremony,party platters,PHRASE,Snacks/platters not core to Naming Ceremony (sacred occasion)
