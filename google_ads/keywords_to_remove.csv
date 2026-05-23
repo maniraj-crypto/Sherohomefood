@@ -1,421 +1,402 @@
-Action,Campaign,Ad Group,Keyword,Match Type,Reason
-Remove,DST - Bulk/Party,Office Party,small wedding catering,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Naming Ceremony,small wedding catering,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,small wedding catering,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,marriage function catering,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,best wedding caterers Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,best wedding caterers Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding and catering services Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,food for wedding anniversary Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding biryani catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,marriage function catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding food order Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding dining Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding food order Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,marriage function catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding biryani catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding food order Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,small wedding catering,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,marriage function catering,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,food for wedding anniversary,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,best wedding caterers Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding dining Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,food for wedding anniversary Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,marriage function catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding food order Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,best wedding caterers Hyderabad,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Chennai,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Chennai,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Chennai,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding food order Chennai,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,marriage function catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding food order Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Anniversary Event,wedding and catering services Bangalore,PHRASE,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,small wedding catering,EXACT,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,marriage function catering,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,best wedding caterers Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,best wedding caterers Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding and catering services Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,food for wedding anniversary Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding caterers near me Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding biryani catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,marriage function catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding food order Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding reception catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding lunch catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding dining Hyderabad,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding reception catering Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding lunch catering Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding food order Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding caterers near me Chennai,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding caterers near me Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,marriage function catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding biryani catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding food order Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding reception catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Home Party,wedding lunch catering Bangalore,BROAD,Wedding/marriage term — removed per business decision
-Remove,DST - Bulk/Party,Office Party,Office Party,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,Naming Ceremony,Naming Ceremony,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,Home Party,home party,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,Baby Shower,Baby Shower,PHRASE,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,House Warming,House Warming,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,Home Pooja,Home Pooja,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent"
-Remove,DST - Bulk/Party,Naming Ceremony,party catering,PHRASE,Misdirected in Naming Ceremony ad group
-Remove,DST - Bulk/Party,Naming Ceremony,party platters,PHRASE,Misdirected in Naming Ceremony ad group
-Remove,DST - Bulk/Party,Naming Ceremony,birthday catering,PHRASE,Misdirected in Naming Ceremony ad group
-Remove,DST - Bulk/Party,Office Party,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small party catering near me,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Naming Ceremony,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Office Party,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Naming Ceremony,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Office Party,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Office Party,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Naming Ceremony,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small party caterers in chennai,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small party caterers in chennai,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Baby Shower,small party caterers in chennai,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home catering delivery,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home catering delivery,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Baby Shower,home catering delivery,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,best caterers in Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,best caterers in Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,party food order near me,EXACT,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,party food order near me,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,best caterers in Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,best caterers in Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,corporate catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,corporate catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,corporate catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,catering services Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,griha pravesh catering,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,griha pravesh catering,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,griha pravesh catering,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,corporate catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,corporate catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,corporate catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,affordable catering Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,affordable catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,function catering Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,function catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,housewarming catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,office party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office party catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,birthday party catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,catering for birthday party Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,catering for birthday party Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,office lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office lunch catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,home catering services Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,affordable catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,affordable catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering for birthday party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,catering for birthday party Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,housewarming catering Chennai,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming catering Chennai,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming catering Chennai,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,birthday catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,food for birthday party Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,food for birthday party Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party food order Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday catering home delivery Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday party catering services Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party catering services Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,corporate party food Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,corporate party food Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,corporate party food Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,snacks for office event Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,snacks for office event Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,snacks for office event Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,office food order Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office food order Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office food order Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,office event catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office event catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office event catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,griha pravesh catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,griha pravesh catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,griha pravesh catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,housewarming party catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming party catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming party catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,new home celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,new home celebration food Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,house warming function catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,house warming function catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,house warming function catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,food for anniversary party Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,food for anniversary party Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,anniversary dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,anniversary dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,anniversary celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,anniversary celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,housewarming food order Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming food order Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming food order Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,best homemade food home delivery near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,best homemade food home delivery near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home style food for get together Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home style food for get together Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,home food order for birthday Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,homemade party food near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,catering near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home catering near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,veg caterers near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,veg caterers near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,catering for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,small party caterers Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,small party caterers Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,function catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,function catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,birthday catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday catering near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,food for birthday party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,food for birthday party Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday dinner catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday dinner catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday catering home delivery Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday party catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party catering services Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,office party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office party catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,corporate party food Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,corporate party food Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,corporate party food Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,snacks for office event Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,snacks for office event Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,snacks for office event Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,office lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office lunch catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,office food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office food order Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,office event catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,office event catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,office event catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,bulk food order for office Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,bulk food order for office Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,bulk food order for office Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,anniversary party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Home Party,anniversary party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event
-Remove,DST - Bulk/Party,Birthday Event,home style food delivery for function,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home style food delivery for function,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,bulk food order for office Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Anniversary Event,bulk food order for office Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Home Party,bulk food order for office Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party
-Remove,DST - Bulk/Party,Birthday Event,best homemade food home delivery near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,best homemade food home delivery near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home style food for get together Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home style food for get together Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,home food order for birthday Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,homemade party food near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Bangalo,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Bangalo,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,birthday party home food Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party home food Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,housewarming food order Chennai,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming food order Chennai,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming food order Chennai,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,birthday dinner catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for get together,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for get together,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,homemade party food near me,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,home food order for birthday,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday party food order Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday catering home delivery,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Birthday Event,housewarming party catering near me,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Anniversary Event,housewarming party catering near me,PHRASE,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Home Party,housewarming party catering near me,BROAD,Duplicate across ad groups — keep only in House Warming
-Remove,DST - Bulk/Party,Birthday Event,new home celebration food order,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,new home celebration food order,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,veg caterers near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,veg caterers near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,home catering services Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,home catering services Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Birthday Event,catering for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,catering for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
-Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday lunch catering Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,birthday dinner food order,PHRASE,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Home Party,birthday dinner food order,BROAD,Duplicate across ad groups — keep only in Birthday Event
-Remove,DST - Bulk/Party,Anniversary Event,catering service Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party
+Action,Campaign,Ad Group,Keyword,Match Type,Reason,90d Clicks,90d Cost (INR),90d Conv (mostly PV)
+Remove,DST - Bulk/Party,Office Party,small wedding catering,EXACT,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small wedding catering,EXACT,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small wedding catering,EXACT,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,best wedding caterers Hyderabad,BROAD,Wedding/marriage term — removed per business decision,20,96.48,10.0
+Remove,DST - Bulk/Party,Birthday Event,wedding catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,23,76.53,9.5
+Remove,DST - Bulk/Party,Birthday Event,best wedding caterers Bangalore,BROAD,Wedding/marriage term — removed per business decision,6,19.20,1.0
+Remove,DST - Bulk/Party,Birthday Event,wedding and catering services Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for wedding anniversary Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding biryani catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,6,20.14,3.67
+Remove,DST - Bulk/Party,Birthday Event,marriage function catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding food order Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding dining Hyderabad,BROAD,Wedding/marriage term — removed per business decision,2,6.38,2.0
+Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding food order Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding caterers near me Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,marriage function catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding biryani catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,33,101.84,15.0
+Remove,DST - Bulk/Party,Birthday Event,wedding food order Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding reception catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,wedding lunch catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small wedding catering,EXACT,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,best wedding caterers Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering,PHRASE,Wedding/marriage term — removed per business decision,3,24.89,2.0
+Remove,DST - Bulk/Party,Anniversary Event,wedding dining Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,food for wedding anniversary Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,marriage function catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding food order Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,best wedding caterers Hyderabad,PHRASE,Wedding/marriage term — removed per business decision,4,17.62,2.0
+Remove,DST - Bulk/Party,Anniversary Event,wedding caterers near me Chennai,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding reception catering Chennai,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Chennai,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding food order Chennai,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding biryani catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,marriage function catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding food order Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding lunch catering Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,wedding and catering services Bangalore,PHRASE,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,small wedding catering,EXACT,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Home Party,wedding catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,12,46.05,6.0
+Remove,DST - Bulk/Party,Home Party,best wedding caterers Bangalore,BROAD,Wedding/marriage term — removed per business decision,16,79.01,10.0
+Remove,DST - Bulk/Party,Home Party,wedding and catering services Bangalore,BROAD,Wedding/marriage term — removed per business decision,1,2.63,0.0
+Remove,DST - Bulk/Party,Home Party,food for wedding anniversary Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding caterers near me Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,marriage function catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Home Party,wedding food order Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding reception catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,1,8.08,0.0
+Remove,DST - Bulk/Party,Home Party,wedding lunch catering Hyderabad,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding dining Hyderabad,BROAD,Wedding/marriage term — removed per business decision,15,93.74,9.0
+Remove,DST - Bulk/Party,Home Party,wedding reception catering Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding lunch catering Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding food order Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding caterers near me Chennai,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0.0
+Remove,DST - Bulk/Party,Home Party,wedding caterers near me Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,marriage function catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding food order Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding reception catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,wedding lunch catering Bangalore,BROAD,Wedding/marriage term — removed per business decision,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,Naming Ceremony,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent",0,0.00,0.0
+Remove,DST - Bulk/Party,Baby Shower,Baby Shower,PHRASE,"Ad-group-name as Exact/Phrase — too broad, captures research intent",0,0.00,0
+Remove,DST - Bulk/Party,House Warming,House Warming,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent",7,81.45,7.0
+Remove,DST - Bulk/Party,Home Pooja,Home Pooja,EXACT,"Ad-group-name as Exact/Phrase — too broad, captures research intent",0,0.00,0.0
+Remove,DST - Bulk/Party,Naming Ceremony,party platters,PHRASE,Misdirected in Naming Ceremony ad group,2,9.66,1.0
+Remove,DST - Bulk/Party,Naming Ceremony,birthday catering,PHRASE,Misdirected in Naming Ceremony ad group,34,245.91,28.0
+Remove,DST - Bulk/Party,Office Party,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,home party catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,catering for small group,PHRASE,Duplicate across ad groups — keep only in Home Party,2,18.01,2.0
+Remove,DST - Bulk/Party,Office Party,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Naming Ceremony,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small function catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,food for small gathering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 20 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party,2,6.74,1.0
+Remove,DST - Bulk/Party,Anniversary Event,food for small party,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 10 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 15 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0.0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 40 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 50 people,PHRASE,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0.0
+Remove,DST - Bulk/Party,Office Party,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Naming Ceremony,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,small party food catering,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 25 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for 30 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small party catering near me,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small party catering near me,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for 30 people,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0.0
+Remove,DST - Bulk/Party,Office Party,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party,1,7.70,1.0
+Remove,DST - Bulk/Party,Naming Ceremony,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party,1,3.64,0.0
+Remove,DST - Bulk/Party,Birthday Event,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,home party catering near me,BROAD,Duplicate across ad groups — keep only in Home Party,2,15.01,1.0
+Remove,DST - Bulk/Party,Office Party,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,small gathering catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,mini catering service,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for 50 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for 20 guests,EXACT,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,intimate dinner catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,intimate event catering,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home party food for 20 people,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday food for 20 people,EXACT,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small family gathering catering,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,house party catering for 20,EXACT,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small function food,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small event food order,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Office Party,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Naming Ceremony,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,catering for few people,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,small party caterers in chennai,BROAD,Duplicate across ad groups — keep only in Home Party,35,170.80,31.0
+Remove,DST - Bulk/Party,Baby Shower,small party caterers in chennai,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Baby Shower,home catering delivery,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,best caterers in Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,5,26.31,3.0
+Remove,DST - Bulk/Party,Anniversary Event,best caterers in Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,party food order near me,PHRASE,Duplicate across ad groups — keep only in Home Party,27,241.95,26.83
+Remove,DST - Bulk/Party,Birthday Event,best caterers in Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,1,14.04,1.0
+Remove,DST - Bulk/Party,Anniversary Event,best caterers in Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,corporate catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,corporate catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Home Party,corporate catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,11,36.57,3.33
+Remove,DST - Bulk/Party,Anniversary Event,griha pravesh catering,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,corporate catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,7,50.73,6.33
+Remove,DST - Bulk/Party,Anniversary Event,corporate catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,corporate catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,affordable catering Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,3,9.52,1.0
+Remove,DST - Bulk/Party,Anniversary Event,affordable catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,function catering Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,function catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,housewarming catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office party catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,23,73.78,14.0
+Remove,DST - Bulk/Party,Anniversary Event,catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,37,249.45,29.0
+Remove,DST - Bulk/Party,Anniversary Event,catering for birthday party Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,catering for birthday party Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office lunch catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,1,2.26,1.0
+Remove,DST - Bulk/Party,Birthday Event,home catering services Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,6,29.67,2.0
+Remove,DST - Bulk/Party,Anniversary Event,home catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,affordable catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,11,44.66,6.0
+Remove,DST - Bulk/Party,Anniversary Event,affordable catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,catering for birthday party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,housewarming catering Chennai,BROAD,Duplicate across ad groups — keep only in House Warming,19,66.03,11.0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming catering Chennai,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming catering Chennai,BROAD,Duplicate across ad groups — keep only in House Warming,32,141.23,22.0
+Remove,DST - Bulk/Party,Anniversary Event,birthday catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,food for birthday party Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for birthday party Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party food order Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday catering home delivery Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party catering services Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party catering services Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,14,86.74,12.0
+Remove,DST - Bulk/Party,Birthday Event,corporate party food Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,corporate party food Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,corporate party food Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,snacks for office event Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,snacks for office event Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,snacks for office event Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office food order Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office food order Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office food order Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office event catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office event catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office event catering Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday lunch catering Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,griha pravesh catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,griha pravesh catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,griha pravesh catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,housewarming party catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming party catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming party catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,new home celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,new home celebration food Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,house warming function catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,house warming function catering Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,house warming function catering Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,food for anniversary party Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for anniversary party Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,anniversary dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,anniversary dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,anniversary celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,anniversary celebration food Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,housewarming food order Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming food order Bangalore,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming food order Bangalore,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,best homemade food home delivery near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,best homemade food home delivery near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home style food for get together Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home style food for get together Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,home food order for birthday Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade party food near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,home catering near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,veg caterers near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,veg caterers near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,catering for party Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,4,21.04,3.0
+Remove,DST - Bulk/Party,Anniversary Event,catering for party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,1,2.57,2.0
+Remove,DST - Bulk/Party,Birthday Event,small party caterers Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,1,5.00,0.5
+Remove,DST - Bulk/Party,Anniversary Event,small party caterers Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,function catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Home Party,48,213.82,25.0
+Remove,DST - Bulk/Party,Anniversary Event,function catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Anniversary Event,birthday catering near me Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday catering near me Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,food for birthday party Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,food for birthday party Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday dinner catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday dinner catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday catering home delivery Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party catering services Hyderabad,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party catering services Hyderabad,BROAD,Duplicate across ad groups — keep only in Birthday Event,36,262.54,33.0
+Remove,DST - Bulk/Party,Birthday Event,office party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office party catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office party catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,corporate party food Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,corporate party food Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,corporate party food Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,snacks for office event Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,snacks for office event Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,snacks for office event Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office lunch catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office lunch catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,15,96.95,8.0
+Remove,DST - Bulk/Party,Birthday Event,office food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office food order Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office food order Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,office event catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,office event catering Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,office event catering Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,bulk food order for office Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,bulk food order for office Hyderabad,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,bulk food order for office Hyderabad,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,anniversary party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,anniversary party catering Bangalore,BROAD,Duplicate across ad groups — keep only in Anniversary Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home style food delivery for function,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home style food delivery for function,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,bulk food order for office Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,bulk food order for office Bangalore,PHRASE,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,bulk food order for office Bangalore,BROAD,Duplicate across ad groups — keep only in Office Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,best homemade food home delivery near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,best homemade food home delivery near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home style food for get together Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home style food for get together Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,home food order for birthday Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade party food near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Bangalo,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Bangalo,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade food delivery for party,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade food delivery for party,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party home food Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party home food Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,housewarming food order Chennai,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming food order Chennai,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming food order Chennai,BROAD,Duplicate across ad groups — keep only in House Warming,6,20.67,3.0
+Remove,DST - Bulk/Party,Anniversary Event,birthday dinner catering Bangalore,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday dinner catering Bangalore,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for get together,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for get together,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,homemade party food near me,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,homemade party food near me,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home food order for birthday,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,home food order for birthday,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday party food order Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday party food order Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday catering home delivery,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday catering home delivery,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,housewarming party catering near me,BROAD,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,housewarming party catering near me,PHRASE,Duplicate across ad groups — keep only in House Warming,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,housewarming party catering near me,BROAD,Duplicate across ad groups — keep only in House Warming,5,13.18,4.0
+Remove,DST - Bulk/Party,Birthday Event,new home celebration food order,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,new home celebration food order,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home cooked food for function Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home cooked food for function Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home catering near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,home catering near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,veg caterers near me Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,15,46.55,10.0
+Remove,DST - Bulk/Party,Anniversary Event,veg caterers near me Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Birthday Event,home catering services Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,5,13.31,2.0
+Remove,DST - Bulk/Party,Anniversary Event,home catering services Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
+Remove,DST - Bulk/Party,Birthday Event,catering for party Bangalore,BROAD,Duplicate across ad groups — keep only in Home Party,10,35.78,2.0
+Remove,DST - Bulk/Party,Anniversary Event,catering for party Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday lunch catering Chennai,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday lunch catering Chennai,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,birthday dinner food order,PHRASE,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Home Party,birthday dinner food order,BROAD,Duplicate across ad groups — keep only in Birthday Event,0,0.00,0
+Remove,DST - Bulk/Party,Anniversary Event,catering service Bangalore,PHRASE,Duplicate across ad groups — keep only in Home Party,0,0.00,0.0
