@@ -54,34 +54,38 @@
 
 ---
 
-## 4. PROBLEMS IDENTIFIED & FIXES APPLIED (This Month)
+## 4. PROBLEMS IDENTIFIED & FIXES COMPLETED (May 2026)
 
-### 4a. Wasted Spend — Display Network OFF ✅
-- **Problem:** ₹6,628 spent on Display ads over 90 days → **zero real leads**
-- **Fix Applied:** Display Network disabled. Entire budget now on Search only.
+### 4a. Wasted Spend — Display Network ✅ FIXED
+- **Problem:** ₹6,628 spent on Display ads over 90 days → zero real leads
+- **Fix:** Display Network disabled. Entire budget now on Search only.
 - **Monthly Saving:** ~₹2,200/month redirected to Search
 
-### 4b. Out-of-City Leads — Location Targeting Bug ⚠️ ACTION NEEDED
-- **Problem:** Google's default setting "Presence or Interest" was showing ads to anyone in India who searched "Chennai catering" — not just people in Chennai/Bangalore/Hyderabad
+### 4b. Out-of-City Leads — Location Targeting ✅ FIXED
+- **Problem:** Google's default "Presence or Interest" setting was showing ads to anyone across India who searched "Chennai catering" — not just people physically in our 3 cities
 - **Impact:** Multiple unqualified leads from cities we cannot serve
-- **Fix:** Must change to **"Presence Only"** in Google Ads UI
-  - Settings → Locations → Location Options → Select "Presence: People in or regularly in your targeted locations"
-- **Status:** Campaign currently PAUSED. Must fix this BEFORE re-enabling.
+- **Fix Applied (24 May):**
+  - Changed to **"Presence Only"** — ads now show only to people physically in the target cities
+  - Added **Bangalore + Hyderabad** as target cities alongside Chennai
+  - Both Include AND Exclude location options set to Presence Only
+- **Cities targeted:** Chennai (3.21 Cr reach) + Bengaluru (3.63 Cr) + Hyderabad (3.79 Cr)
 
-### 4c. Keyword Cleanup ✅
-- **Before:** 704 keywords (many overlapping, irrelevant, broad-match waste)
+### 4c. Keyword Cleanup ✅ FIXED
+- **Before:** 704 keywords (overlapping, irrelevant, broad-match waste)
 - **After:** 303 keywords — 401 removed based on 90-day zero-performance data
-- **Expected Impact:** Reduced wasted impressions, budget concentrates on proven terms
+- **Impact:** Budget now concentrates on proven, intent-driven terms
 
-### 4d. Ad Copy Updated ✅
+### 4d. Ad Copy ✅ FIXED
 - All ads updated to **city-agnostic** messaging (works for Chennai, Bangalore, Hyderabad)
 - Capacity corrected to **"20–50 guests"** across all ads, extensions, and lead form
-- 8 new B-variant ads submitted to Google (in review — 24–48 hrs)
+- 8 new B-variant RSAs submitted to Google for review
 
-### 4e. Negative Keywords Expanded ✅
-- Added 185 campaign-level negative keywords
-- Blocked: mass catering (100+ guests), DIY searches, competitor terms, irrelevant cuisines
-- New additions this week: 60–99 person queries blocked (above our 50-guest capacity)
+### 4e. Negative Keywords ✅ FIXED
+- Expanded to 185 campaign-level negative keywords
+- Blocked: mass catering (100+ guests), 60–99 person queries, DIY searches, competitor terms, irrelevant cuisines
+
+### 4f. Disapproved Test Ads ✅ CLEANED UP
+- 4 duplicate/disapproved test ads removed from Office Party ad group
 
 ---
 
@@ -115,7 +119,7 @@
 | Option | Monthly Budget | Strategy |
 |--------|---------------|---------|
 | **Maintain** | ₹60,000 | Same volume, better quality after location fix |
-| **Recommended: Scale** | ₹75,000 | +₹15K to grow Office Party + test BLR/HYD |
+| **Recommended: Scale** | ₹75,000 | +₹15K to grow Office Party + expand BLR/HYD |
 | Aggressive Growth | ₹90,000 | If June/July is peak season — scale all top groups |
 
 ### How to Allocate ₹75,000
@@ -125,49 +129,49 @@
 | Home Party | ₹25,000 | Highest volume, tested performer |
 | Birthday Event | ₹22,000 | 2nd highest volume, good CTR |
 | Anniversary Event | ₹13,000 | Solid CTR at 2.27% |
-| Office Party | ₹10,000 | Highest CTR (5.89%) — scale this up |
+| Office Party | ₹10,000 | Highest CTR (5.89%) — currently under-invested |
 | Naming Ceremony | ₹3,000 | Niche but converting |
-| Baby Shower + House Warming + Home Pooja | ₹2,000 | Keep minimal — brand presence |
+| Baby Shower + House Warming + Home Pooja | ₹2,000 | Brand presence |
 
 ---
 
-## 7. MUST-DO BEFORE JUNE 1 (UI Actions)
+## 7. PENDING — MONDAY 26 MAY
 
 | # | Action | Where | Priority |
 |---|--------|--------|----------|
-| 1 | Fix location targeting → "Presence Only" | Settings → Locations → Location Options | 🔴 CRITICAL |
-| 2 | Add Bangalore + Hyderabad as target cities | Settings → Locations | 🔴 CRITICAL |
-| 3 | Re-enable campaign after location fix | Campaign status | 🔴 CRITICAL |
-| 4 | Review & enable B-variant ads (after Google approves) | Ads & Assets | 🟡 HIGH |
-| 5 | Set Landing Page View to secondary conversion | Tools → Conversions | 🟡 HIGH |
+| 1 | **Re-enable campaign** | Campaign status | 🔴 CRITICAL |
+| 2 | **Enable approved B-variant ads** | Ads & Assets → filter Paused | 🟡 HIGH |
+
+> All other fixes (location, keywords, negatives, ad copy, display off, test ads removed) are **already completed**.
 
 ---
 
 ## 8. WHAT'S WORKING / WHAT'S NOT
 
 ### ✅ Working Well
-- Office Party ad group — 5.89% CTR is exceptional
-- Campaign is scaling (impressions +200% from March to May)
-- CTR improving month-on-month (1.66% → 2.16%)
-- Search ads generating real enquiries at roughly ₹1,300–₹1,500/lead
+- Office Party ad group — 5.89% CTR is exceptional (3× campaign average)
+- Campaign is scaling fast — impressions grew 200% from March to May
+- CTR improving month-on-month: 1.66% → 1.71% → 2.16%
+- Search ads generating real enquiries at ~₹1,300–₹1,500/lead
+- All 8 original RSAs: Enabled + Approved + actively serving
 
-### ❌ Needs Fixing
-- Location targeting (PAUSED right now — zero leads coming in)
-- Conversion tracking shows misleading ₹7 CPA (real is ₹1,300+)
-- 3 ad groups (Chennai Localities, Veg Biryani, Pure Veg Catering) have zero ads — missing potential leads
-- Display network was burning ₹2,200/month with no returns (now fixed)
+### ❌ Still Needs Attention
+- Conversion tracking shows misleading ₹7 CPA (real is ₹1,300+) — fix in Tools → Conversions
+- 3 ad groups (Chennai Localities, Veg Biryani, Pure Veg Catering) have zero ads — missing lead volume
+- Campaign currently paused (intentional — re-enable Monday)
 
 ---
 
-## 9. 90-DAY FORECAST (If Fixes Applied)
+## 9. JUNE FORECAST (With Fixes Applied)
 
-| Metric | Current (no fixes) | After Fixes (June) |
+| Metric | May (before fixes) | June (after fixes) |
 |--------|-------------------|--------------------|
-| Monthly Budget | ₹53,000 (May pace) | ₹75,000 |
+| Monthly Budget | ₹69,000 (pace) | ₹75,000 |
 | Real Leads/Month | ~32–39 (estimate) | ~45–55 (projected) |
 | Real CPA | ~₹1,300–1,500 | ~₹1,350–1,650 |
-| Out-of-city leads | High (location bug) | Near zero (Presence Only) |
-| Quality score | Improving | Better (fewer irrelevant keywords) |
+| Out-of-city leads | High (bug present) | Near zero (fixed) |
+| Lead quality | Mixed | Chennai/BLR/HYD only |
+| Ad copy relevance | Generic, over-capacity | 20–50 guests, 3-city ready |
 
 ---
 
