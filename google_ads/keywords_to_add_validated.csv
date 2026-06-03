@@ -1,0 +1,56 @@
+Campaign,Ad group,Keyword,Match type,Status,Monthly Searches,Competition,Notes
+DST - Bulk/Party,Home Party,catering services near me,Phrase,Enabled,5400,MEDIUM,TOP volume keyword
+DST - Bulk/Party,Home Party,private events,Phrase,Enabled,2900,LOW,Big volume + low competition
+DST - Bulk/Party,Home Party,private event near me,Phrase,Enabled,1300,MEDIUM,High intent
+DST - Bulk/Party,Home Party,house party catering,Phrase,Enabled,90,MEDIUM,Exact fit
+DST - Bulk/Party,Home Party,family celebration ideas,Phrase,Enabled,20,MEDIUM,Trending
+DST - Bulk/Party,Home Party,hen party food ideas,Phrase,Enabled,10,LOW,Strong CTR in data
+DST - Bulk/Party,Home Party,activity parties,Phrase,Enabled,30,LOW,Kids party intent
+DST - Bulk/Party,Birthday Event,birthday party planning,Phrase,Enabled,1300,LOW,Big volume
+DST - Bulk/Party,Birthday Event,family birthday party,Phrase,Enabled,170,LOW,Good volume
+DST - Bulk/Party,Birthday Event,birthday event packages,Phrase,Enabled,10,UNKNOWN,Strong CTR 68% in account data
+DST - Bulk/Party,Birthday Event,birthday party planners price list,Phrase,Enabled,10,UNKNOWN,Strong CTR 82% in account data
+DST - Bulk/Party,Birthday Event,1st birthday catering,Phrase,Enabled,10,LOW,Niche fit
+DST - Bulk/Party,Anniversary Event,restaurants for engagement parties,Phrase,Enabled,720,LOW,High volume
+DST - Bulk/Party,Anniversary Event,engagement party food ideas,Phrase,Enabled,320,HIGH,Decent volume
+DST - Bulk/Party,Pure Veg Catering,veg catering near me,Phrase,Enabled,20,LOW,Veg-specific
+DST - Bulk/Party,Pure Veg Catering,vegetarian catering service near me,Phrase,Enabled,10,MEDIUM,Veg-specific
+DST - Bulk/Party,Pure Veg Catering,best veg catering services near me,Phrase,Enabled,10,MEDIUM,Veg-specific
+DST - Bulk/Party,Pure Veg Catering,top 10 veg caterers in chennai,Phrase,Enabled,10,UNKNOWN,High-intent veg
+DST - Bulk/Party,Pure Veg Catering,top 5 brahmin caterers in chennai,Phrase,Enabled,10,UNKNOWN,Brahmin veg intent
+DST - Bulk/Party,Pure Veg Catering,brahmin catering near me,Phrase,Enabled,10,MEDIUM,Veg-specific
+DST - Bulk/Party,Pure Veg Catering,best veg caterers in hyderabad,Phrase,Enabled,10,UNKNOWN,HYD veg
+DST - Bulk/Party,Pure Veg Catering,brahmin catering services in hyderabad,Phrase,Enabled,10,LOW,HYD veg
+DST - Bulk/Party,Pure Veg Catering,brahmana bhojanam catering,Phrase,Enabled,10,LOW,Brahmin intent
+DST - Bulk/Party,Pure Veg Catering,caterers in bangalore for small parties,Phrase,Enabled,10,LOW,BLR small party
+DST - Bulk/Party,Pure Veg Catering,catering services in whitefield,Phrase,Enabled,10,UNKNOWN,BLR locality
+DST - Bulk/Party,Pure Veg Catering,catering services for 20 persons in bangalore,Phrase,Enabled,10,UNKNOWN,BLR capacity match
+DST - Bulk/Party,Chennai Localities,catering services anna nagar,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,catering services in medavakkam,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,catering services ambattur,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,catering services porur,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,caterers in madipakkam,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,catering services perambur,Phrase,Enabled,10,LOW,Locality
+DST - Bulk/Party,Chennai Localities,catering services valasaravakkam,Phrase,Enabled,10,LOW,Locality
+DST - Bulk/Party,Chennai Localities,velachery catering service,Phrase,Enabled,10,UNKNOWN,Locality
+DST - Bulk/Party,Chennai Localities,pallikaranai catering services,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,catering services in guduvancheri,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,catering services kk nagar,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,catering services tambaram,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,catering services chrompet,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,catering services sholinganallur,Phrase,Enabled,0,UNKNOWN,Locality - brand defense
+DST - Bulk/Party,Chennai Localities,shero home food mylapore,Exact,Enabled,10,UNKNOWN,BRAND - must defend
+DST - Bulk/Party,Chennai Localities,shero home food mogappair,Exact,Enabled,10,UNKNOWN,BRAND - must defend
+DST - Bulk/Party,Chennai Localities,shero home food velachery,Exact,Enabled,10,UNKNOWN,BRAND - must defend
+DST - Bulk/Party,Chennai Localities,shero home food madipakkam,Exact,Enabled,0,UNKNOWN,BRAND - must defend
+DST - Bulk/Party,Chennai Localities,shero home food chennai menu,Exact,Enabled,0,UNKNOWN,BRAND - must defend
+DST - Bulk/Party,Naming Ceremony,namakaranam catering,Phrase,Enabled,0,UNKNOWN,Regional language - low risk
+DST - Bulk/Party,Naming Ceremony,barsa catering,Phrase,Enabled,0,UNKNOWN,Telugu - low risk
+DST - Bulk/Party,Baby Shower,seemantham catering,Phrase,Enabled,0,UNKNOWN,South Indian - low risk
+DST - Bulk/Party,Baby Shower,valaikappu catering,Phrase,Enabled,10,UNKNOWN,Tamil
+DST - Bulk/Party,Baby Shower,godh bharai catering,Phrase,Enabled,0,UNKNOWN,Hindi - low risk
+DST - Bulk/Party,Home Pooja,satyanarayan pooja catering,Phrase,Enabled,0,UNKNOWN,Pooja-specific - low risk
+DST - Bulk/Party,Home Pooja,griha pravesh pooja catering,Phrase,Enabled,0,UNKNOWN,Pooja-specific - low risk
+DST - Bulk/Party,Home Pooja,sattvic catering home,Phrase,Enabled,0,UNKNOWN,Veg-specific - low risk
+DST - Bulk/Party,House Warming,griha pravesham catering,Phrase,Enabled,0,UNKNOWN,Tamil/Telugu - low risk
+DST - Bulk/Party,Veg Biryani,veg biryani catering,Phrase,Enabled,10,HIGH,Veg-specific
