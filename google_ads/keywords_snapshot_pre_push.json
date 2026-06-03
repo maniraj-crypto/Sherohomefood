@@ -1,0 +1,1914 @@
+{
+  "snapshot_date": "2026-06-03T07:51:24.333418",
+  "snapshot_purpose": "Pre-push baseline. Use for restore-if-needed and post-push verification.",
+  "campaign_id": "23276220898",
+  "campaign_name": "DST - Bulk/Party",
+  "total_ad_groups": 11,
+  "ad_groups": [
+    {
+      "ad_group_id": "184013077570",
+      "name": "Office Party",
+      "status": "ENABLED",
+      "keyword_count": 54,
+      "keywords": [
+        {
+          "text": "corporate food catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "office catering service",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office catering companies",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "corporate lunch catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "corporate catering near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best office lunch catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate catering service",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "office catering near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "team lunch catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office event catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office party food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate lunch delivery",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "office catering chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "affordable office catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate catering services near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office lunch catering near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office food platters",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office party food delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate party food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "Office Party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate bulk food order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate catering chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office party food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small office party catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "corporate lunch catering near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "team event catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "workplace catering companies",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "snacks for office event",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office get together food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "where to order home cooked food for office party",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "order homemade food for office party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food suppliers for office events",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk food order for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home kitchen catering for companies",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade lunch for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office event meal delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for team celebration",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office party lunch menu",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "authentic south indian food for office events",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for office event",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk lunch order for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for employee gathering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for office celebration",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "south indian meal for team lunch",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "healthy home food for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "authentic homemade food for corporate parties",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office party buffet food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk order south indian food for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk thali delivery for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "affordable south indian catering for office",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food delivery for employees",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office lunch bulk order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade dinner for office party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for client meeting or office event",
+          "match_type": "EXACT"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "186029681182",
+      "name": "Naming Ceremony",
+      "status": "ENABLED",
+      "keyword_count": 36,
+      "keywords": [
+        {
+          "text": "party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "dinner party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party food catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for home parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "order party food",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "order party platters",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food to cater for parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party food catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday party catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for small party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "valaikappu catering in chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party food near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "naming ceremony catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "seemantham catering chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "small event catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "seemantham catering in chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "namakaranam food delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for baby naming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home food for baby function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "south indian food for naming function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for pooja function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "thottil pooja food order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional food for baby ceremony",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "naming ceremony catering chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for naming ceremony",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "valaikappu food order chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "ear piercing ceremony food",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for thottil pooja near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "thread ceremony food order",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "namakaranam catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "namakarana catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "naming day catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "puberty function catering chennai",
+          "match_type": "PHRASE"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "186590189457",
+      "name": "Birthday Event",
+      "status": "ENABLED",
+      "keyword_count": 70,
+      "keywords": [
+        {
+          "text": "birthday catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for birthday party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for birthday party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday party food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "kids birthday catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday party food catering services",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "kids birthday party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday party food delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "1st birthday catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "best food for birthday party",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "marriage function catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering service",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for birthday party near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "small party caterers in chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home catering delivery",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food catering home delivery",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "menu for birthday party at home",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "party food order near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for small birthday party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday catering chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday catering ideas",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "affordable birthday catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade snacks for birthday party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small birthday party catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for birthday event",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best food to cater for birthday party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food for birthday party near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering services Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "griha pravesh catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food for birthday party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday food at home",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday party catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for birthday party Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "best homemade food for birthday",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk food order for birthday",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home food for birthday celebration",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional food for birthday guests",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for birthday party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "south indian food for birthday party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for kids birthday",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday catering near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food for birthday party Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party food order Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering home delivery Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party catering services Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday lunch catering Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home food order for birthday Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food for birthday party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday dinner catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party food order Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday lunch catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering home delivery Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party catering services Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home food order for birthday Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party home food Chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday dinner catering Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party food chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday party catering home",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "veg birthday party food",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "home food order for birthday",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party food order Chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering home delivery",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday lunch catering Chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday dinner food order",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday catering for 30 guests",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "birthday food for 20 people",
+          "match_type": "EXACT"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "188285601506",
+      "name": "Anniversary Event",
+      "status": "ENABLED",
+      "keyword_count": 75,
+      "keywords": [
+        {
+          "text": "private party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "private dinner party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "private event catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian food catering for birthday parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party order menu",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "tea party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "traditional south indian catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for 20 people",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian caterers for small parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for 50 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for 10 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for 15 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for 40 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for afternoon tea party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for 50 people",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for anniversary party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "birthday party food boxes",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for 25 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for 30 guests",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home catering delivery",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "anniversary catering service",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "tea party catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian party catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party food for 50 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "office lunch catering services",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "private catering at home",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "private event catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "wedding anniversary catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for 30 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "private party catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "marriage function catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian party food catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party orders near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "tea party food catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "home party catering services",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian caterers for small parties near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian catering for home parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "private catering for small parties",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party orders undertaken",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "small party indian catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "indian food catering for small party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "shero home food",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "indian catering near me for party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for 50 guests",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "anniversary celebration food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for wedding anniversary",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "party orders undertaken near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food for 20 guests",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "25th anniversary catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "tea party food near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "www shero home food com",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "party order available",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "birthday party catering Bangalore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party order accepted",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home food for anniversary dinner",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for anniversary party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering for small anniversary function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "anniversary party catering Bangalore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "food for anniversary party Bangalore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "anniversary celebration food Bangalore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "anniversary dinner catering Bangalore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "bulk food delivery for party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "pure veg party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "mini tiffin for small functions",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "authentic home cooked catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering services for house warming party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "small party catering for 50 people",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "affordable party food delivery",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "anniversary catering chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "anniversary food delivery chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "anniversary food catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "veg anniversary catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "anniversary party food at home",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "50th anniversary catering veg",
+          "match_type": "PHRASE"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "188820153277",
+      "name": "Home Party",
+      "status": "ENABLED",
+      "keyword_count": 91,
+      "keywords": [
+        {
+          "text": "home party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "home party catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "house party catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering companies in chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for small group",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering in chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "top caterers in chennai",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "small function catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for small gathering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "food for small party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering for parties at home",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering services in chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "marriage function catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home party food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small party food catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering services for home parties",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "small party catering near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best caterers in Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for home party",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "party food order near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best caterers in Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home party catering near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food catering near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small gathering catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "home party catering service",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering services for small party",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food for party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "mini catering service",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering at home for a party",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering services Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "griha pravesh catering",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "south indian food for party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small party catering at home",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "intimate dinner catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering service Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "best wedding caterers Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "intimate event catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "affordable catering Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "function catering Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home cooked food for party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best homemade food home delivery near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "bulk home food order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "order home food for party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "party catering home food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "party food bulk order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home catering services Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "affordable catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for birthday party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home get together catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "new home celebration food Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "best homemade food home delivery near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home cooked food for party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food delivery for party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home style food for get together Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade party food near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home cooked food for function Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home catering near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "veg caterers near me Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for party Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "small party caterers Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "wedding biryani catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "function catering Hyderabad",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home style food delivery for function",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "best homemade food home delivery near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food delivery for party Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home style food for get together Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade party food near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home cooked food for party Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade food delivery for party",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "bulk party food chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home party food chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "home party food order",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "veg party catering home",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for get together",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "homemade party food near me",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "new home celebration food order",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home cooked food for function Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home catering near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "veg caterers near me Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home catering services Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for party Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "wedding biryani catering Bangalore",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "home party food for 20 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small family gathering catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "house party catering for 20",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small function food",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "small event food order",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "catering for few people",
+          "match_type": "BROAD"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "191537275169",
+      "name": "Baby Shower",
+      "status": "ENABLED",
+      "keyword_count": 20,
+      "keywords": [
+        {
+          "text": "baby shower catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "baby shower catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "seemantham catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "baby shower catering chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "valaikappu catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for auspicious occasions",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "prasadam style food delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for pregnancy ceremony",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional south indian meal for seemantham",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for baby shower function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for seemantham",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional food for seemantham",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg thali for baby shower",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "south indian food for baby shower",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for sacred ceremonies",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "authentic south indian food for celebrations",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "baby shower food at home",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home food for valaikappu function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "satvik food for seemantham",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional meals for valaikappu",
+          "match_type": "EXACT"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "191859573314",
+      "name": "House Warming",
+      "status": "ENABLED",
+      "keyword_count": 22,
+      "keywords": [
+        {
+          "text": "griha pravesh catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "housewarming catering services",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "housewarming food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg food for housewarming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for griha pravesh",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg thali for housewarming pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "satvik food for housewarming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade meals for new home function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "no onion no garlic food for housewarming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for housewarming ceremony",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "temple style food for pooja ceremony",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade food for pooja functions",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade catering for housewarming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "south indian food for new home pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home food delivery for housewarming",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "housewarming catering chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "food for griha pravesh pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "housewarming food chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg housewarming catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "housewarming food near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "griha pravesh food catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "authentic pooja food for griha pravesh",
+          "match_type": "EXACT"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "191879803187",
+      "name": "Home Pooja",
+      "status": "ENABLED",
+      "keyword_count": 18,
+      "keywords": [
+        {
+          "text": "no onion no garlic catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pooja food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "prasadam catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "sattvik catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade meal box for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home cooked food for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "book catering for home pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "south indian food for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "bulk veg food order for rituals",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg food for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade prasadam food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg catering for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "affordable catering for family pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "satyanarayana pooja food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "home pooja food",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "traditional pooja meals delivery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "satvik food for pooja",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "homemade catering for pooja",
+          "match_type": "EXACT"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "198427213084",
+      "name": "Veg Biryani",
+      "status": "PAUSED",
+      "keyword_count": 13,
+      "keywords": [
+        {
+          "text": "veg biryani bulk order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani full tray price",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani for 15 person",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "paneer biryani catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani for 30 persons price",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani for 20 persons price",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani for 50 people",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg biryani catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "veg biryani for party",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "mushroom biryani bulk order",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg dum biryani catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "paneer biryani for party",
+          "match_type": "PHRASE"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "199845351267",
+      "name": "Chennai Localities",
+      "status": "PAUSED",
+      "keyword_count": 38,
+      "keywords": [
+        {
+          "text": "best catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services in chennai with price list",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "brahmin catering chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "best brahmin caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "top 10 catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best brahmin catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best biryani caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best veg catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "top catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering adyar",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering services adyar",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg catering services chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "small party caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services tambaram",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best biryani catering services in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg catering services in chennai with price list",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services ambattur",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services thiruvanmiyur",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services kolathur",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services mylapore",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services porur",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services t nagar",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services besant nagar",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering anna nagar",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "top 10 veg caterers in chennai",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering tambaram",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering services anna nagar",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering services velachery",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "best veg caterers chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering mylapore",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "pure veg caterers chennai",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering services omr",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "catering velachery",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering ambattur",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering porur",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "catering omr",
+          "match_type": "PHRASE"
+        }
+      ]
+    },
+    {
+      "ad_group_id": "199845585347",
+      "name": "Pure Veg Catering",
+      "status": "PAUSED",
+      "keyword_count": 17,
+      "keywords": [
+        {
+          "text": "veg catering services",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "pure veg caterers",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "jain catering services",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "pure veg catering services",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg catering",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "jain catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure vegetarian catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg catering services near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg wedding catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg caterers near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure vegetarian catering near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg catering near me",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "pure veg catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg menu for function",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "satvik food catering",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "pure veg party food near me",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "veg catering for party",
+          "match_type": "EXACT"
+        }
+      ]
+    }
+  ],
+  "total_keywords": 454
+}
