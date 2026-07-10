@@ -37,6 +37,32 @@ export default function EventCateringPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const sendEmailNotification = async (leadData: typeof form) => {
+    try {
+      await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          service_id: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          template_id: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          user_id: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+          template_params: {
+            lead_name: leadData.name,
+            lead_phone: "+91" + leadData.phone,
+            lead_pincode: leadData.pincode,
+            lead_event_date: leadData.event_date,
+            lead_guest_count: leadData.guest_count,
+            lead_event_details: leadData.event_details,
+            lead_source: utmParams.utm_source || "landing_page",
+            lead_campaign: utmParams.utm_campaign || "",
+          },
+        }),
+      });
+    } catch {
+      // Email failure is silent — lead is already saved in DB
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -57,6 +83,10 @@ export default function EventCateringPage() {
       status: "intake",
       created_at: new Date().toISOString(),
     });
+
+    if (!dbError) {
+      await sendEmailNotification(form);
+    }
 
     setLoading(false);
 
